@@ -75,5 +75,6 @@ print "|"+ str(reqq("/api/1/trading/new_order","&clientOrderId=" + getclientorde
 d = datetime.datetime.utcnow()
 print d
 unixtime = calendar.timegm(d.utctimetuple())
+
 print unixtime
 
