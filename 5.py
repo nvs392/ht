@@ -73,7 +73,7 @@ sellPrice=0.001589
 print "|"+ str(reqq("/api/1/trading/new_order","&clientOrderId=" + getclientorderId() + "&symbol=BCNUSD&side=sell&quantity="+str(quantity)+"&type=limit"+'&price='+str(sellPrice) ))
 
 d = datetime.datetime.utcnow()
-print d
+print d #
 unixtime = calendar.timegm(d.utctimetuple())
 
 print unixtime
