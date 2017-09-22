@@ -10,7 +10,7 @@ import time
 import math
 import json
 import unirest as unirest
-#import requests
+
 import logging
 from decimal import Decimal
 
